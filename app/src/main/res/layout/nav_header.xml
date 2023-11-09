@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/colorAccent"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="72dp"
+            android:src="@drawable/whatsapp_image_2022_11_05_at_21_11_29" />
+
+        <TextView
+            android:id="@+id/txtNamefl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Evita Intan Cahyaningtyas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/txtEmailAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="evitaintanc9g20@gmail.com" />
+
+</LinearLayout>
